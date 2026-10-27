@@ -170,6 +170,68 @@ nav .active{
   font-size: 16px;
   line-height: 1.6;
 }
+.advantages {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  padding: 55px 40px;
+  background: #f7f8f9;
+}
+
+.section-label {
+  color: #c83b0b;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.advantages-text h2 {
+  margin: 14px 0;
+  font-family: Georgia, serif;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.advantages-text p {
+  margin-bottom: 28px;
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.advantages-text .button {
+  display: inline-block;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.advantage-card {
+  padding: 20px;
+  border: 1px solid #e2e7ec;
+  background: white;
+}
+
+.icon {
+  display: inline-block;
+  padding: 12px;
+  background: #fff0e9;
+  font-size: 20px;
+}
+
+.advantage-card h3 {
+  margin: 14px 0 6px;
+  font-size: 16px;
+}
+
+.advantage-card p {
+  margin: 0;
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.5;
+}
 
 
 
