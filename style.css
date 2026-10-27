@@ -56,5 +56,108 @@ nav .active{
     font-weight: bold;
 }
 
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 540px;
+  margin-bottom: 55px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("images/1.1.png") center / cover;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 650px;
+  padding: 40px 20px 70px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #006f9e;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  margin: 20px 0;
+  font-family: Georgia, serif;
+  font-size: 46px;
+  line-height: 1.2;
+}
+
+.hero h1 span {
+  color: #006f9e;
+}
+
+.hero p {
+  color: #ddd;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 28px;
+}
+
+.blue-button,
+.outline-button {
+  padding: 13px 22px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.blue-button {
+  border: 2px solid #006f9e;
+  background: #006f9e;
+}
+
+.outline-button {
+  border: 2px solid white;
+}
+
+.stats {
+  position: absolute;
+  bottom: -35px;
+  left: 10%;
+  display: flex;
+  width: 80%;
+  padding: 25px 0;
+  background: white;
+  box-shadow: 0 2px 6px #ddd;
+}
+
+.stats div {
+  flex: 1;
+  border-right: 1px solid #e2e7ec;
+}
+
+.stats div:last-child {
+  border-right: 0;
+}
+
+.stats strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #c83b0b;
+  font-family: Georgia, serif;
+  font-size: 25px;
+}
+
+.stats span {
+  color: #718096;
+  font-size: 12px;
+}
+
+
 
 
