@@ -232,6 +232,114 @@ nav .active{
   font-size: 14px;
   line-height: 1.5;
 }
+.services {
+  padding: 55px 35px;
+  background: white;
+}
+
+.services-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.services-title h2 {
+  margin: 10px 0;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.services-title p {
+  color: #718096;
+  font-size: 14px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid #e2e7ec;
+}
+
+.service-photo {
+  position: relative;
+}
+
+.service-photo img {
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.service-tag {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: #006f9e;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.heart {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.service-card h3 {
+  margin: 14px 5px 5px;
+  font-size: 15px;
+}
+
+.service-card p {
+  margin: 0 5px;
+  color: #718096;
+  font-size: 12px;
+}
+
+.service-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 5px 2px;
+}
+
+.service-price strong {
+  color: #c83b0b;
+  font-size: 14px;
+}
+
+.service-price del {
+  color: #9aa4b2;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.plus {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+  background: #c83b0b;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
 
 
 
