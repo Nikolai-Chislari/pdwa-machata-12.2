@@ -721,6 +721,21 @@ footer {
   background: #4296b9;
 }
 
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+  background: #111418;
+  color: #bdc6d0;
+  font-size: 12px;
+}
+
+.top-bar a {
+  margin-right: 10px;
+  color: #bdc6d0;
+}
+
 
 
 
