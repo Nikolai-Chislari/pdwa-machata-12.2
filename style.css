@@ -157,6 +157,19 @@ nav .active{
   color: #718096;
   font-size: 12px;
 }
+.logo {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 24px auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
 
 
 
