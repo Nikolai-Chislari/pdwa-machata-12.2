@@ -695,6 +695,32 @@ footer {
   font-size: 12px;
 }
 
+.call-button {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px 10px 10px;
+  border-radius: 30px;
+  background: #006f9e;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 20;
+}
+
+.call-button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #4296b9;
+}
+
 
 
 
