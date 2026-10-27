@@ -623,6 +623,77 @@ nav .active{
   font-weight: bold;
   cursor: pointer;
 }
+footer {
+  padding: 50px 35px 25px;
+  background: #111418;
+  color: #93a1b3;
+  font-size: 13px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 35px;
+}
+
+.footer-logo {
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-logo span {
+  color: #006f9e;
+}
+
+.footer-grid h3 {
+  margin: 0 0 18px;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-grid p {
+  margin: 12px 0;
+  line-height: 1.7;
+}
+
+.footer-grid > div > a {
+  display: block;
+  margin-bottom: 10px;
+  color: #93a1b3;
+}
+
+.footer-grid > div > .footer-logo {
+  color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #282d32;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 1px solid #454b52;
+  font-size: 12px;
+}
 
 
 
